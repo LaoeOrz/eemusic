@@ -1,12 +1,11 @@
-import Vue from 'vue'
-import App from './App'
-import router from './router'
+import Vue from "vue";
+import App from "./App";
+// import router from './router'
 
-Vue.config.productionTip = false
+import "common/stylus/index.styl";
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
+  el: "#app",
   render: h => h(App)
-})
+});
